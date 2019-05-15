@@ -52,9 +52,6 @@ class Item:
         self.name = name
         self.price = price
 
-    def get_price(self):
-        return self.price
-
     def __str__(self):
         return "{}\t{}".format(self.name, self.price)
 
@@ -106,8 +103,6 @@ class Cashier:
         total = total - price_off
         #print('After hundreds discount {}'.format(total))
         return total
-
-
 
     def get_percentage_discount(self, customer_type):
         if customer_type == "2_year_customer":
