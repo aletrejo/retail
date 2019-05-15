@@ -13,4 +13,4 @@ $ ./test.sh
 ```
 
 ## UML Diagram
-![UML Diagram](uml diagram.png)
+![UML Diagram](uml_diagram.png)
